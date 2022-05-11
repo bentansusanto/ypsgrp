@@ -1,0 +1,310 @@
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    color: #ffff !important;
+}
+
+/* Hero Style */
+.heros {
+    margin-top: -10%;
+}
+.hero{
+    background: url('../assets/image/img-peo/bg-hero.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero1{
+    margin-top: -26%;
+}
+.heros h1, .heros h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:#EADBCD;
+    font-weight: 500;
+}
+
+/* About Style */
+.abots{
+    margin-top: 310px;
+}
+.abot{
+    background: url('../assets/image/img-peo/pattern-flower1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abot2{
+    text-align: center;
+}
+.abot2 img{
+    width: 50%;
+}
+.abot2 h2, .abot2 p{
+    text-align: left;
+}
+.abot2 h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Quotes Style */
+.quot{
+    background: url('../assets/image/img-peo/bg-qoutes.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quotes p{
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    color: #ffff;
+    font-size: 2rem;
+}
+
+/* Project Style */
+    .projeks{
+        width: 100%;
+        margin: 300px auto;
+        text-align: center;
+    }
+    .projek{
+        background: radial-gradient(#111 50%, #000 100%);
+        width: 220px;
+        height: 274px;
+        overflow: hidden;
+        position: relative;
+     }
+    .projek img{
+        transform: scale(1.1);
+        transition: all 0.3s ease-out;
+     }
+     .projek:hover img{
+        transform: scale(1.1) translateY(-20px);
+        opacity: 0.3;
+     }
+    .desc{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        color: #ffff;
+    }
+    .desc h4{
+        margin: 0 0 20px;
+        transform: translateY(30px);
+        padding-bottom: 10px;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .projek:hover .desc h4{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+/* Responsive */
+/* Large Desktop */
+@media only screen and (min-width: 1025px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .heros{
+        margin-top: -100px;
+    }
+    .hero{
+        height: 100vh;
+    }
+    .hero1{
+        margin-top: -500px;
+    }
+    .heros h1{
+        font-size: 5.5rem;
+    }
+    .heros h3{
+        font-size: 3.5rem;
+    }
+    .abots{
+        margin-top: 310px;
+        margin-left: unset;
+    }
+    .abot{
+        height: 70vh;
+    }
+    .abot1{
+        margin: auto;
+        margin-top: -450px;
+        margin-left: -100px;
+    }
+    .abot2 img{
+        margin: 20px 0;
+        width: 40%;
+    }
+    .abot2 h2{
+        font-size: 4rem;
+        padding-bottom: 10px;
+     }
+    .abot2 p{
+        width: 80%;
+        font-size: 1rem;
+    }
+    .quotes{
+        margin-top: 60px;
+     }
+     .quot{
+         height: 55vh;
+     }
+     .quotes p{
+        margin-top: -200px;
+        font-size: 1.8rem;
+        width: 70%;
+     }
+     .projeks{
+        width: 700px;
+     }
+     .projek{
+        width: 220px;
+        height: 274px; 
+        margin: 10px auto;
+     }
+    .desc h4{
+        font-size: .9rem;
+    }
+}
+/* Tablet and Desktop */
+@media only screen and (max-width: 1024px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .heros{
+        margin-top: -100px;
+    }
+    .hero{
+        height: 100vh;
+    }
+    .hero1{
+        margin-top: -400px;
+    }
+    .heros h1{
+        font-size: 4.5rem;
+    }
+    .heros h3{
+        font-size: 2.5rem;
+    }
+    .abots{
+        margin-top: 250px;
+        margin-left: -10px;
+    }
+    .abot{
+        height: 80vh;
+    }
+    .abot1{
+        margin: auto;
+        margin-top:-450px;
+    }
+    .abot2 img{
+        margin: 20px 0;
+        width: 40%;
+    }
+    .abot2 h2{
+        padding-bottom: 10px;
+        font-size: 2.5rem;
+     }
+     .abot2 p{
+         width: 100%;
+         font-size: .9rem;
+     }
+     .quotes{
+        margin-top: unset;
+     }
+     .quot{
+         height: 70vh;
+     }
+     .quotes p{
+        margin-top: -240px;
+        font-size: 1.8rem;
+        width: 80%;
+     }
+     .projeks{
+        width: 85%;
+     }
+     .projek{
+        width: 220px;
+        height: 274px; 
+        margin: 10px auto;
+     }
+    .desc h4{
+        font-size: .9rem;
+    }
+}
+/* Handphone */
+@media only screen and (max-width: 767px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    .heros{
+        margin-top: -100px;
+    }
+    .hero{
+        height: 60vh;
+    }
+    .hero1{
+        margin-top: -250px;
+    }
+    .heros h1{
+        font-size: 3rem;
+    }
+    .heros h3{
+        font-size: 2rem;
+    }
+    .abots{
+        margin-top: 140px;
+        margin-left: -10px;
+    }
+    .abot{
+        height: 100vh;
+    }
+    .abot1{
+        margin: unset;
+        margin-top: -650px;
+    }
+    .abot2 img{
+        margin: 20px 0;
+        width: 50%;
+    }
+    .abot2 h2{
+        padding-bottom: 10px;
+        font-size: 3rem;
+     }
+     .abot2 p{
+         font-size: .9rem;
+     }
+     .quotes{
+        margin-top: unset;
+     }
+     .quot{
+         height: 70vh;
+     }
+     .quotes p{
+        margin-top: -250px;
+        font-size: 1.5rem;
+        width: 80%;
+     }
+     .projeks{
+        width: 500px;
+     }
+     .projek{
+        width: 220px;
+        height: 274px; 
+        margin: 10px auto;
+     }
+    .desc h4{
+        font-size: .9rem;
+    }
+    
+}

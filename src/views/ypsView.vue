@@ -12,12 +12,12 @@
         <div class="tentangs">
             <div class="tentang"></div>
             <div class="container">
-                <div class="row flex-row-reverse abots">
-                     <div class="col-12 col-md-6 abot">
-                        <img :src="section1.img2">
-                        <img :src="section1.img1">
+                <div class="row flex-row-reverse tntgs">
+                     <div class="col-12 col-md-6 tntg">
+                        <img :src="section1.img2"> 
+                         <img :src="section1.img1">
                     </div>
-                    <div class="col-12 col-md-6 abot1">
+                    <div class="col-12 col-md-6 tntg1">
                         <h2>{{section1.judul}}</h2>
                         <p v-for="desk in section1.desc" :key="desk">{{desk}}</p>
                     </div>

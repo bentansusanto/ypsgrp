@@ -14,6 +14,7 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
+    background-position: center;
 }
 .contents h1 {
     text-align: center;
@@ -29,20 +30,20 @@
         background-size: cover;
         opacity: 25%;
     }
-    .abots{
+    .tntgs{
         width: 100%;
         margin: auto;
         position: relative;
         z-index: 1;
     }
-    .abot img{
+    .tntng img{
         width: 40%;
     }
-    .abot img:nth-child(2){
+    .tntg img:nth-child(2){
         position: relative;
         z-index: -1;
     }
-    .abot1 h2{
+    .tntg1 h2{
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
     }
@@ -83,29 +84,29 @@
     .tentangs{
         margin-top: 335px;
     }
-    .abots{
+    .tntgs{
         margin-top: -450px;
     }
-    .abot, .abot1{
+    .tntg, .tntg1{
         margin: unset;
     }
-    .abot{
+    .tntg{
         text-align: unset;
         margin-right: -100px;
     } 
-    .abot img{
+    .tntg img{
         width: 35%;
     }
-    .abot img:nth-child(1){
+    .tntg img:nth-child(1){
         margin-top: 100px;
     }
-    .abot img:nth-child(2){
+    .tntg img:nth-child(2){
         margin-left: -20px;
     }
-    .abot1 h2{
+    .tntg1 h2{
         font-size: 4rem;
     }
-    .abot1 p{
+    .tntg1 p{
         font-size: 1rem;
         width: 80%;
     }
@@ -140,29 +141,29 @@
     .tentang{
         height: 100vh;
     }
-    .abots{
+    .tntgs{
         margin-top: -600px;
     }
-    .abot, .abot1{
+    .tntg, .tntg1{
         margin: 0 10px;
     }
-    .abot{
+    .tntg{
         text-align: unset;
         margin-right: -50px;
     } 
-    .abot img{
+    .tntg img{
         width: 45%;
     }
-    .abot img:nth-child(1){
+    .tntg img:nth-child(1){
         margin-top: 100px;
     }
-    .abot img:nth-child(2){
+    .tntg img:nth-child(2){
         margin-left: -20px;
     }
-    .abot1 h2{
+    .tntg1 h2{
         font-size: 3rem;
     }
-    .abot1 p{
+    .tntg1 p{
         font-size: .9rem;
         width: 90%;
     }
@@ -202,29 +203,29 @@
     .tentang{
         height: 100vh;
     }
-    .abots{    
+    .tntgs{    
         margin-top: -600px;
     }
-    .abot{
+    .tntg{
         text-align: center;
         margin-right: unset;
     }
-    .abot img{
+    .tntg img{
         width: 40%;
     }
-    .abot img:nth-child(1){
+    .tntg img:nth-child(1){
         margin-top: 100px;
     }
-    .abot img:nth-child(2){
+    .tntg img:nth-child(2){
         margin-left: -20px;
     }
-    .abot1{
+    .tntg1{
         margin-top: 100px;
     }
-    .abot1 h2{
+    .tntg1 h2{
         font-size: 3rem;
     }
-    .abot1 p{
+    .tntg1 p{
         font-size: .9rem;
         width: 100%;
     }
